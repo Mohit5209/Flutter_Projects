@@ -1,14 +1,85 @@
-# Flutter_Projects
-In this repo there will be App codes using Flutter and Dart.
+# Flutter Projects Collection
 
-## Currency Converter App
+This repository contains a collection of Flutter applications showcasing different features and implementations.
 
-Clone the repo in your system.
+## Projects
 
-Then run ```flutter pub get``` in the terminal to install all dependancies needed for the app.
+### 1. Currency Converter App
+A modern currency conversion application that converts USD to INR with support for both Material Design (Android) and Cupertino (iOS) interfaces.
 
-To run the app ```flutter run``` select device and your app will be running.
+**Features:**
+- Real-time USD to INR conversion
+- Material Design and Cupertino UI support
+- Decimal number input support
+- Responsive layout
 
-To download a apk file run ```flutter build apk```, this will build apk and store it in ```build/app/outputs/flutter-apk/app-release.apk```.
+[View Currency Converter README](currency_converter/README.md)
 
-For IOS change ```MyApp``` to ```MyCupertinoApp``` in the main function of main.dart file in lib folder.
+### 2. Weather App
+A comprehensive weather application that provides real-time weather information for cities.
+
+**Features:**
+- Real-time temperature display
+- Current weather conditions with dynamic icons
+- Hourly weather forecast
+- Additional weather metrics (humidity, wind speed, pressure)
+- Pull-to-refresh functionality
+- Dark theme support
+
+[View Weather App README](weather_app/README.md)
+
+## Getting Started
+
+### Prerequisites
+- Flutter SDK (latest version)
+- Dart SDK
+- Android Studio / VS Code
+- Android Emulator / iOS Simulator (for testing)
+
+### Installation
+
+1. Clone the repository.
+
+2. Navigate to the desired project directory:
+```bash
+cd Flutter_Projects/currency_converter  # For Currency Converter
+# or
+cd Flutter_Projects/weather_app        # For Weather App
+```
+
+3. Install dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the app:
+```bash
+flutter run
+```
+
+## Building Apps
+
+### For Android
+To build an APK file:
+```bash
+flutter build apk
+```
+The APK will be available at: `build/app/outputs/flutter-apk/app-release.apk`
+
+### For iOS
+For the Currency Converter app, to switch to iOS design:
+1. Open `lib/main.dart`
+2. Change `MyApp` to `MyCupertinoApp` in the main function
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit Pull Requests for any of the projects.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- Flutter team for the amazing framework
+- The open-source community for their contributions
