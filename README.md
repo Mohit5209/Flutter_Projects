@@ -2,6 +2,11 @@
 
 This repository contains a collection of Flutter applications showcasing different features and implementations.
 
+## Quick Links
+- [Currency Converter App](currency_converter/)
+- [Weather App](weather_app/)
+- [Shopping App](shop_app/)
+
 ## Projects
 
 ### 1. Currency Converter App
@@ -28,6 +33,20 @@ A comprehensive weather application that provides real-time weather information 
 
 [View Weather App README](weather_app/README.md)
 
+### 3. Shopping App
+A modern and user-friendly shopping application with comprehensive features for product browsing and cart management.
+
+**Features:**
+- Product browsing with detailed information
+- Cart management with real-time price updates
+- Search and filter products
+- Modern UI with custom theme
+- State management using Provider
+- Responsive design
+- Intuitive navigation
+
+[View Shopping App README](shop_app/README.md)
+
 ## Getting Started
 
 ### Prerequisites
@@ -45,6 +64,8 @@ A comprehensive weather application that provides real-time weather information 
 cd Flutter_Projects/currency_converter  # For Currency Converter
 # or
 cd Flutter_Projects/weather_app        # For Weather App
+# or
+cd Flutter_Projects/shop_app          # For Shopping App
 ```
 
 3. Install dependencies:
