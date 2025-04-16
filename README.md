@@ -6,6 +6,8 @@ This repository contains a collection of Flutter applications showcasing differe
 - [Currency Converter App](currency_converter/)
 - [Weather App](weather_app/)
 - [Shopping App](shop_app/)
+- [Bakasur Chat App](bakasur/)
+- [Bakasur Chat API](chatbot/)
 
 ## Projects
 
@@ -46,6 +48,48 @@ A modern and user-friendly shopping application with comprehensive features for 
 - Intuitive navigation
 
 [View Shopping App README](shop_app/README.md)
+
+### 4. Bakasur Chat App
+A modern chat application that provides an intuitive interface for conversing with an AI chatbot.
+
+**Features:**
+- Real-time chat interface
+- Dark/Light theme toggle
+- Clear conversation history
+- AI-powered responses
+- Responsive design
+
+[View Bakasur Chat App README](bakasur/README.md)
+
+### 5. Bakasur Chat API
+A REST API backend for the Bakasur Chat App, powered by Google's Gemini AI. This API provides the AI chat functionality used in the Bakasur Chat App.
+
+**Features:**
+- RESTful API endpoints
+- Integration with Google's Gemini AI
+- Structured logging system
+- Environment variable configuration
+- Error handling and response formatting
+
+**Setup:**
+1. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+2. Set up environment variables:
+```bash
+export GEMINI_API_KEY='your-api-key-here'
+export FLASK_HOST='0.0.0.0'  # Optional
+export FLASK_PORT=5000      # Optional
+```
+
+3. Run the server:
+```bash
+python api.py
+```
+
+[View Bakasur Chat API README](chatbot/README.md)
 
 ## Getting Started
 
