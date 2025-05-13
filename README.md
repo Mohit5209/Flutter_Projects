@@ -110,6 +110,10 @@ cd Flutter_Projects/currency_converter  # For Currency Converter
 cd Flutter_Projects/weather_app        # For Weather App
 # or
 cd Flutter_Projects/shop_app          # For Shopping App
+# or
+cd Flutter_Projects/bakasur           # For Bakasur Chat App
+# or
+cd Flutter_Projects/chatbot           # For Bakasur Chat API
 ```
 
 3. Install dependencies:
