@@ -6,7 +6,7 @@ This repository contains a collection of Flutter applications showcasing differe
 - [Currency Converter App](currency_converter/)
 - [Weather App](weather_app/)
 - [Shopping App](shop_app/)
-- [Bakasur Chat App](bakasur/)
+- [Bakasur Chat Bot](bakasur/)
 - [Bakasur Chat API](chatbot/)
 
 ## Projects
@@ -59,7 +59,7 @@ A modern chat application that provides an intuitive interface for conversing wi
 - AI-powered responses
 - Responsive design
 
-[View Bakasur Chat App README](bakasur/README.md)
+[View Bakasur Chat App README](bakasur(ChatBot)/README.md)
 
 ### 5. Bakasur Chat API
 A REST API backend for the Bakasur Chat App, powered by Google's Gemini AI. This API provides the AI chat functionality used in the Bakasur Chat App.
@@ -89,7 +89,7 @@ export FLASK_PORT=5000      # Optional
 python api.py
 ```
 
-[View Bakasur Chat API README](chatbot/README.md)
+[View Bakasur Chat API README](bakasur(API)/README.md)
 
 ## Getting Started
 
@@ -111,9 +111,9 @@ cd Flutter_Projects/weather_app        # For Weather App
 # or
 cd Flutter_Projects/shop_app          # For Shopping App
 # or
-cd Flutter_Projects/bakasur           # For Bakasur Chat App
+cd Flutter_Projects/bakasur(ChatBot)           # For Bakasur Chat App
 # or
-cd Flutter_Projects/chatbot           # For Bakasur Chat API
+cd Flutter_Projects/bakasur(API)           # For Bakasur Chat API
 ```
 
 3. Install dependencies:
@@ -131,7 +131,7 @@ flutter run
 ### For Android
 To build an APK file:
 ```bash
-flutter build apk
+flutter build apk --release
 ```
 The APK will be available at: `build/app/outputs/flutter-apk/app-release.apk`
 
