@@ -58,7 +58,8 @@ A modern chat application that provides an intuitive interface for conversing wi
 - AI-powered responses
 - Responsive design
 
-> **Note:** The backend API for this app is maintained in the [Python_Projects/bakasur(API)](../Python_Projects/bakasur(API)) directory.
+> **Note:** The backend API for this app is maintained in the [Python_Projects/bakasur(API)](https://github.com/Mohit5209/Python_Projects/tree/main/bakasur%28API%29) directory.
+
 
 [View Bakasur Chat App README](bakasur(ChatBot)/README.md)
 
