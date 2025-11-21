@@ -195,9 +195,16 @@ Barrel file for utils (if present): `lib/utils/utils.dart`.
 
 ---
 
+---
 
-<video controls width="600">
-  <source src="TB.mp4" type="video/mp4">
-<video controls width="600">
-  <source src="TB2.mp4" type="video/mp4">
-</video>
+## Live App Demonstrations
+
+Experience TB App in action:
+
+### ▶ **Demo 1 – APP Features and Screens Described**
+[**Watch Demo 1**](https://mohit5209.github.io/Flutter_Projects/TB.mp4)
+
+### ▶ **Demo 2 – App demo with real-time chat and features**
+[**Watch Demo 2**](https://mohit5209.github.io/Flutter_Projects/TB2.mp4)
+
+---
