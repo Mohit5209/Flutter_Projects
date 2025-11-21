@@ -196,5 +196,8 @@ Barrel file for utils (if present): `lib/utils/utils.dart`.
 ---
 
 
-<video controls src="TB.mp4" title="TB"></video>
-<video controls src="TB2.mp4" title="TB"></video>
+<video controls width="600">
+  <source src="TB.mp4" type="video/mp4">
+<video controls width="600">
+  <source src="TB2.mp4" type="video/mp4">
+</video>
