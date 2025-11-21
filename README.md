@@ -7,6 +7,7 @@ This repository contains a collection of Flutter applications showcasing differe
 - [Weather App](weather_app/)
 - [Shopping App](shop_app/)
 - [Bakasur Chat Bot](bakasur/)
+- [TB Messaging App](tb_app/)
 
 ## Projects
 
@@ -48,7 +49,7 @@ A modern and user-friendly shopping application with comprehensive features for 
 
 [View Shopping App README](shop_app/README.md)
 
-### 4. Bakasur Chat App
+### 4. Bakasur Chat Bot
 A modern chat application that provides an intuitive interface for conversing with an AI chatbot.
 
 **Features:**
@@ -60,9 +61,22 @@ A modern chat application that provides an intuitive interface for conversing wi
 
 > **Note:** The backend API for this app is maintained in the [Python_Projects/bakasur(API)](https://github.com/Mohit5209/Python_Projects/tree/main/bakasur%28API%29) directory.
 
+[View Bakasur Chat Bot README](bakasur/README.md)
 
-[View Bakasur Chat App README](bakasur/README.md)
+### 5. TB Messaging App
+A chat application featuring authentication, real-time messaging (WebSocket), conversation management (favorites, pinned, unread), user search, and profile module. Uses Firebase for initialization and FCM device tokens; communicates with backend via REST APIs and WebSockets defined in `lib/constants/api_constants.dart`.
 
+**Features:**
+- Login/Signup/Reset password with JWT
+- Conversations with filters and search
+- Real-time chat with delivery/read states
+- Favorites and pinned chats
+- Profile view and update
+- Firebase FCM device registration for notification
+
+[View TB Messaging App README](tb_app/README.md)
+
+> **Note:** The backend API for this app is maintained in the [Python_Projects/TB(API)](https://github.com/Mohit5209/Python_Projects/tree/main/TB%28API%29) directory.
 
 ## Getting Started
 
@@ -84,7 +98,9 @@ cd Flutter_Projects/weather_app        # For Weather App
 # or
 cd Flutter_Projects/shop_app           # For Shopping App
 # or
-cd Flutter_Projects/bakasur(ChatBot)   # For Bakasur Chat App
+cd Flutter_Projects/bakasur            # For Bakasur Chat Bot
+# or
+cd Flutter_Projects/tb_app             # For TB Messaging App
 ```
 
 3. Install dependencies:
